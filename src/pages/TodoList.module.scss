@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 3%;
+  color: white;
+  .column {
+    width: 30%;
+
+    h3 {
+      text-align: center;
+    }
+    .dropColumn {
+      background-color: grey;
+      padding: 15px;
+      padding-bottom: 5px;
+      .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        button {
+          background-color: transparent;
+          border: none;
+        }
+        h4 {
+          margin: 0;
+        }
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

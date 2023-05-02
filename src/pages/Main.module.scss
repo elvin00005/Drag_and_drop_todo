@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  width: 500px;
+  background-color: lightgray;
+  .error {
+    margin-top: 5px;
+    p {
+      color: red;
+    }
+  }
+}
