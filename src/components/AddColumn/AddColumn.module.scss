@@ -1,0 +1,32 @@
+.btn {
+  background-color: grey;
+  border: none;
+  color: white;
+  height: fit-content;
+  &:hover {
+    background-color: rgba(grey, 0.7);
+  }
+}
+.myBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 200px;
+  min-width: 220px;
+  margin-right: 30px;
+  background-color: grey;
+  border: none;
+  color: black;
+  height: fit-content;
+  &:hover {
+    background-color: rgba(grey, 0.7);
+  }
+}
+.myForm {
+  min-width: 350px;
+  p {
+    text-align: center;
+    color: red;
+  }
+}

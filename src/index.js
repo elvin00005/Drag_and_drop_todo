@@ -4,15 +4,12 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
-import Main from "./pages/Main";
+
 import { Provider } from "react-redux";
 import store from "./store";
 import TodoList from "./pages/TodoList";
 
-const router = createBrowserRouter([
-  { path: "/", element: <Main /> },
-  { path: "todolist", element: <TodoList /> },
-]);
+const router = createBrowserRouter([{ path: "/", element: <TodoList /> }]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

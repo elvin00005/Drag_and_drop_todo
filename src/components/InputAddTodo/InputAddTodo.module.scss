@@ -1,0 +1,21 @@
+.add {
+  background-color: transparent;
+  border: none;
+  color: black;
+  &:hover {
+    background-color: rgba(#000000, 0.2);
+  }
+}
+.form {
+  p {
+    color: white;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    &:hover {
+      background-color: rgba(#000000, 0.2);
+    }
+  }
+}

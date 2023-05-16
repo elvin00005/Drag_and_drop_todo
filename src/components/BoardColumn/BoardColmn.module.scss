@@ -1,0 +1,23 @@
+.content {
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  button {
+    background-color: transparent;
+    border: none;
+    color: black;
+  }
+  h4 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
